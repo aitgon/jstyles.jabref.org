@@ -1,0 +1,50 @@
+# This file is licensed under the terms of the GPL version 2 (or later).
+# Written by A. González
+# Base on instructions from here :
+
+## Issues remaining
+# organisation names should not be treated as author name
+
+NAME
+Nature_Genetics Author-year citation
+
+JOURNALS
+Nature Genetics
+
+PROPERTIES
+Title=References
+IsSortByPosition=true
+IsNumberEntries=true
+ReferenceParagraphFormat="Standard"
+ReferenceHeaderParagraphFormat="Heading 1"
+
+CITATION
+AuthorField=author/editor
+YearField=year
+MaxAuthors=3
+MaxAuthorsFirst=10
+AuthorSeparator=,
+AuthorLastSeparator=,
+EtAlString=' et al.'
+YearSeparator=,
+InTextYearSeparator=
+BracketBefore=(
+BracketAfter=)
+BracketBeforeInList=""
+BracketAfterInList=". "
+CitationSeparator=;
+UniquefierSeparator=,
+GroupedNumbersSeparator=-
+MinimumGroupingCount=3
+FormatCitations=false
+ItalicCitations=false
+BoldCitations=false
+SuperscriptCitations=false
+SubscriptCitations=false
+
+
+LAYOUT
+default=\begin{author}\format[Authors(FirstLast,Fullname,sep= & ,LastSep= & ,EtAl= et al.,3,3),]{\author} \end{author} \begin{title}\format[RemoveLatexCommands]{\title}. \end{title} \begin{journal}<i>\journal</i>.\end{journal} \begin{volume}<b>\format[RemoveLatexCommands]{\volume}</b>,\end{volume} \begin{pages}\format[FormatPagesForHTML]{\pages}\end{pages} \begin{year}(\year\uniq) \end{year}
+
+article=\begin{author}\format[Authors(FirstLast,Fullname,sep= & ,LastSep= & ,EtAl= et al.,3,3),]{\author} \end{author} \begin{title}\format[RemoveLatexCommands]{\title}. \end{title} \begin{journal}<i>\journal</i>.\end{journal} \begin{volume}<b>\format[RemoveLatexCommands]{\volume}</b>,\end{volume} \begin{pages}\format[FormatPagesForHTML]{\pages}\end{pages} \begin{year}(\year\uniq) \end{year}
+
